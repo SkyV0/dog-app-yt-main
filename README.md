@@ -1,8 +1,17 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Project uses 
 
-## Available Scripts
+- Material UI
+- Typescript
+- Suspense
+- a custom theme
+- 80% test coverage
+- global state management via redux 
+- Create React App
+- Higher Order Components
+- https://dog.ceo/dog-api/
 
 In the project directory, you can run:
 
