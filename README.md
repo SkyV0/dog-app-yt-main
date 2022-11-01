@@ -16,6 +16,14 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
+##  `npm run test`
+## `npm run test -- Header`
+## `npm run test -- Button`
+## `npm run test -- Loader`
+## `npm run test -- DogInfo`
+## `npm run test -- Dropdown`
+## `npm run test --Images`
+
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
@@ -44,15 +52,3 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-## How To Test
-Npm run test 
-
-a few examples are
-npm run test
-npm run test -- Header
-npm run test -- Button
-npm run test -- Loader
-npm run test -- DogInfo
-npm run test -- Dropdown
-npm run test --Images
