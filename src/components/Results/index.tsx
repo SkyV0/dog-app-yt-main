@@ -15,6 +15,7 @@ function Results({ images }: Props) {
       backgroundColor: "white",
       height: "100%",
       width: "100%",
+      flexFlow: "wrap",
       textAlign: "center",
       borderRadius: "10px"
     }}>

@@ -18,7 +18,16 @@ function Images({ images }: Props) {
       images.length > 3 ? 3 : images.length
     }>
       {images?.map((image, index) => (
-        <ImageListItem key={index}>
+        <ImageListItem key={index}sx={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        height: 150,
+        width: 150,
+        padding: 1,
+        cursor: "pointer",
+        gap: 1
+      }}>
           <img src={image} alt="Dog" loading="lazy" />
         </ImageListItem>
       ))}
