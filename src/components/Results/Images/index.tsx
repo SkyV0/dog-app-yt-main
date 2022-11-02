@@ -14,9 +14,8 @@ function Images({ images }: Props) {
       flexWrap: "wrap",
       objectFit: "cover",
       cursor: "pointer"
-    }} cols={ 
-      images.length > 3 ? 3 : images.length
-    }>
+    }} 
+    >
       {images?.map((image, index) => (
         <ImageListItem key={index}sx={{
         display: "flex",
